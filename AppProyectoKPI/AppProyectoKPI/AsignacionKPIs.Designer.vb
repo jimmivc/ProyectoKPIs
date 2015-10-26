@@ -23,229 +23,22 @@ Partial Class AsignacionKPIs
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AsignacionKPIs))
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.OperacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ImportarProspectosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CrearXxxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SalvarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VentasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ConfiguraciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EventosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EntidadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.KPIToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.IngresosPorUsuarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VentasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.IndicadoresKPIToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FuentesDeProspectosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SeguridadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.UsuariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RolesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PermisosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AccionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.nombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.descripcion = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridView3 = New System.Windows.Forms.DataGridView()
+        Me.descripcionAsignados = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.MenuStrip1.SuspendLayout()
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.BackColor = System.Drawing.Color.Black
-        Me.MenuStrip1.BackgroundImage = CType(resources.GetObject("MenuStrip1.BackgroundImage"), System.Drawing.Image)
-        Me.MenuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.MenuStrip1.Font = New System.Drawing.Font("Arial Unicode MS", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OperacionesToolStripMenuItem, Me.ConfiguraciónToolStripMenuItem, Me.ReportesToolStripMenuItem, Me.SeguridadToolStripMenuItem, Me.SalirToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(7, 2, 0, 2)
-        Me.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
-        Me.MenuStrip1.Size = New System.Drawing.Size(1162, 31)
-        Me.MenuStrip1.TabIndex = 0
-        Me.MenuStrip1.Text = "MenuStrip1"
-        '
-        'OperacionesToolStripMenuItem
-        '
-        Me.OperacionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ImportarProspectosToolStripMenuItem, Me.CrearXxxToolStripMenuItem, Me.SalvarToolStripMenuItem, Me.VentasToolStripMenuItem})
-        Me.OperacionesToolStripMenuItem.ForeColor = System.Drawing.Color.Silver
-        Me.OperacionesToolStripMenuItem.Name = "OperacionesToolStripMenuItem"
-        Me.OperacionesToolStripMenuItem.Size = New System.Drawing.Size(116, 27)
-        Me.OperacionesToolStripMenuItem.Text = "Operaciones"
-        '
-        'ImportarProspectosToolStripMenuItem
-        '
-        Me.ImportarProspectosToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.ImportarProspectosToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ImportarProspectosToolStripMenuItem.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.ImportarProspectosToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.ImportarProspectosToolStripMenuItem.Image = CType(resources.GetObject("ImportarProspectosToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.ImportarProspectosToolStripMenuItem.Name = "ImportarProspectosToolStripMenuItem"
-        Me.ImportarProspectosToolStripMenuItem.Size = New System.Drawing.Size(223, 28)
-        Me.ImportarProspectosToolStripMenuItem.Text = "Prospectos"
-        '
-        'CrearXxxToolStripMenuItem
-        '
-        Me.CrearXxxToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.CrearXxxToolStripMenuItem.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.CrearXxxToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.CrearXxxToolStripMenuItem.Image = CType(resources.GetObject("CrearXxxToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.CrearXxxToolStripMenuItem.Name = "CrearXxxToolStripMenuItem"
-        Me.CrearXxxToolStripMenuItem.Size = New System.Drawing.Size(223, 28)
-        Me.CrearXxxToolStripMenuItem.Text = "Evaluaciones"
-        '
-        'SalvarToolStripMenuItem
-        '
-        Me.SalvarToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.SalvarToolStripMenuItem.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.SalvarToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.SalvarToolStripMenuItem.Image = CType(resources.GetObject("SalvarToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.SalvarToolStripMenuItem.Name = "SalvarToolStripMenuItem"
-        Me.SalvarToolStripMenuItem.Size = New System.Drawing.Size(223, 28)
-        Me.SalvarToolStripMenuItem.Text = "Asignación de KPIs"
-        '
-        'VentasToolStripMenuItem
-        '
-        Me.VentasToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.VentasToolStripMenuItem.Image = CType(resources.GetObject("VentasToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.VentasToolStripMenuItem.Name = "VentasToolStripMenuItem"
-        Me.VentasToolStripMenuItem.Size = New System.Drawing.Size(223, 28)
-        Me.VentasToolStripMenuItem.Text = "Ventas"
-        '
-        'ConfiguraciónToolStripMenuItem
-        '
-        Me.ConfiguraciónToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EventosToolStripMenuItem, Me.EntidadesToolStripMenuItem, Me.KPIToolStripMenuItem})
-        Me.ConfiguraciónToolStripMenuItem.ForeColor = System.Drawing.Color.Silver
-        Me.ConfiguraciónToolStripMenuItem.Name = "ConfiguraciónToolStripMenuItem"
-        Me.ConfiguraciónToolStripMenuItem.Size = New System.Drawing.Size(123, 27)
-        Me.ConfiguraciónToolStripMenuItem.Text = "Configuración"
-        '
-        'EventosToolStripMenuItem
-        '
-        Me.EventosToolStripMenuItem.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.EventosToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.EventosToolStripMenuItem.Image = CType(resources.GetObject("EventosToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.EventosToolStripMenuItem.Name = "EventosToolStripMenuItem"
-        Me.EventosToolStripMenuItem.Size = New System.Drawing.Size(209, 26)
-        Me.EventosToolStripMenuItem.Text = "Eventos"
-        '
-        'EntidadesToolStripMenuItem
-        '
-        Me.EntidadesToolStripMenuItem.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.EntidadesToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.EntidadesToolStripMenuItem.Image = CType(resources.GetObject("EntidadesToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.EntidadesToolStripMenuItem.Name = "EntidadesToolStripMenuItem"
-        Me.EntidadesToolStripMenuItem.Size = New System.Drawing.Size(209, 26)
-        Me.EntidadesToolStripMenuItem.Text = "Entidades"
-        '
-        'KPIToolStripMenuItem
-        '
-        Me.KPIToolStripMenuItem.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.KPIToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.KPIToolStripMenuItem.Image = CType(resources.GetObject("KPIToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.KPIToolStripMenuItem.Name = "KPIToolStripMenuItem"
-        Me.KPIToolStripMenuItem.Size = New System.Drawing.Size(209, 26)
-        Me.KPIToolStripMenuItem.Text = "Creación de KPIs"
-        '
-        'ReportesToolStripMenuItem
-        '
-        Me.ReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IngresosPorUsuarioToolStripMenuItem, Me.VentasToolStripMenuItem1, Me.IndicadoresKPIToolStripMenuItem, Me.FuentesDeProspectosToolStripMenuItem})
-        Me.ReportesToolStripMenuItem.ForeColor = System.Drawing.Color.Silver
-        Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
-        Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(90, 27)
-        Me.ReportesToolStripMenuItem.Text = "Reportes"
-        '
-        'IngresosPorUsuarioToolStripMenuItem
-        '
-        Me.IngresosPorUsuarioToolStripMenuItem.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.IngresosPorUsuarioToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.IngresosPorUsuarioToolStripMenuItem.Image = CType(resources.GetObject("IngresosPorUsuarioToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.IngresosPorUsuarioToolStripMenuItem.Name = "IngresosPorUsuarioToolStripMenuItem"
-        Me.IngresosPorUsuarioToolStripMenuItem.Size = New System.Drawing.Size(246, 26)
-        Me.IngresosPorUsuarioToolStripMenuItem.Text = "Ingresos por usuario"
-        '
-        'VentasToolStripMenuItem1
-        '
-        Me.VentasToolStripMenuItem1.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.VentasToolStripMenuItem1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.VentasToolStripMenuItem1.Image = CType(resources.GetObject("VentasToolStripMenuItem1.Image"), System.Drawing.Image)
-        Me.VentasToolStripMenuItem1.Name = "VentasToolStripMenuItem1"
-        Me.VentasToolStripMenuItem1.Size = New System.Drawing.Size(246, 26)
-        Me.VentasToolStripMenuItem1.Text = "Ventas"
-        '
-        'IndicadoresKPIToolStripMenuItem
-        '
-        Me.IndicadoresKPIToolStripMenuItem.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.IndicadoresKPIToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.IndicadoresKPIToolStripMenuItem.Image = CType(resources.GetObject("IndicadoresKPIToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.IndicadoresKPIToolStripMenuItem.Name = "IndicadoresKPIToolStripMenuItem"
-        Me.IndicadoresKPIToolStripMenuItem.Size = New System.Drawing.Size(246, 26)
-        Me.IndicadoresKPIToolStripMenuItem.Text = "Indicadores KPI"
-        '
-        'FuentesDeProspectosToolStripMenuItem
-        '
-        Me.FuentesDeProspectosToolStripMenuItem.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.FuentesDeProspectosToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.FuentesDeProspectosToolStripMenuItem.Image = CType(resources.GetObject("FuentesDeProspectosToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.FuentesDeProspectosToolStripMenuItem.Name = "FuentesDeProspectosToolStripMenuItem"
-        Me.FuentesDeProspectosToolStripMenuItem.Size = New System.Drawing.Size(246, 26)
-        Me.FuentesDeProspectosToolStripMenuItem.Text = "Fuentes de prospectos"
-        '
-        'SeguridadToolStripMenuItem
-        '
-        Me.SeguridadToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuariosToolStripMenuItem, Me.RolesToolStripMenuItem, Me.PermisosToolStripMenuItem, Me.AccionesToolStripMenuItem})
-        Me.SeguridadToolStripMenuItem.ForeColor = System.Drawing.Color.Silver
-        Me.SeguridadToolStripMenuItem.Name = "SeguridadToolStripMenuItem"
-        Me.SeguridadToolStripMenuItem.Size = New System.Drawing.Size(96, 27)
-        Me.SeguridadToolStripMenuItem.Text = "Seguridad"
-        '
-        'UsuariosToolStripMenuItem
-        '
-        Me.UsuariosToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.UsuariosToolStripMenuItem.Image = CType(resources.GetObject("UsuariosToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.UsuariosToolStripMenuItem.Name = "UsuariosToolStripMenuItem"
-        Me.UsuariosToolStripMenuItem.Size = New System.Drawing.Size(154, 28)
-        Me.UsuariosToolStripMenuItem.Text = "Usuarios"
-        '
-        'RolesToolStripMenuItem
-        '
-        Me.RolesToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.RolesToolStripMenuItem.Image = CType(resources.GetObject("RolesToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.RolesToolStripMenuItem.Name = "RolesToolStripMenuItem"
-        Me.RolesToolStripMenuItem.Size = New System.Drawing.Size(154, 28)
-        Me.RolesToolStripMenuItem.Text = "Roles"
-        '
-        'PermisosToolStripMenuItem
-        '
-        Me.PermisosToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.PermisosToolStripMenuItem.Image = CType(resources.GetObject("PermisosToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.PermisosToolStripMenuItem.Name = "PermisosToolStripMenuItem"
-        Me.PermisosToolStripMenuItem.Size = New System.Drawing.Size(154, 28)
-        Me.PermisosToolStripMenuItem.Text = "Permisos"
-        '
-        'AccionesToolStripMenuItem
-        '
-        Me.AccionesToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.AccionesToolStripMenuItem.Image = CType(resources.GetObject("AccionesToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.AccionesToolStripMenuItem.Name = "AccionesToolStripMenuItem"
-        Me.AccionesToolStripMenuItem.Size = New System.Drawing.Size(154, 28)
-        Me.AccionesToolStripMenuItem.Text = "Acciones"
-        '
-        'SalirToolStripMenuItem
-        '
-        Me.SalirToolStripMenuItem.ForeColor = System.Drawing.Color.Silver
-        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(54, 27)
-        Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'Label1
         '
@@ -258,40 +51,6 @@ Partial Class AsignacionKPIs
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Asignar Indicadores KPI"
         '
-        'Label2
-        '
-        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.Label2.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(13, 240)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(87, 22)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Objetivo :"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopRight
-        '
-        'Label3
-        '
-        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.Label3.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(11, 135)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(103, 22)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Descripcion : "
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopRight
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.Control
-        Me.TextBox1.Font = New System.Drawing.Font("Arial Unicode MS", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.TextBox1.Location = New System.Drawing.Point(120, 128)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(121, 29)
-        Me.TextBox1.TabIndex = 4
-        '
         'Label4
         '
         Me.Label4.BackColor = System.Drawing.Color.Silver
@@ -299,28 +58,6 @@ Partial Class AsignacionKPIs
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(469, 10)
         Me.Label4.TabIndex = 6
-        '
-        'TextBox4
-        '
-        Me.TextBox4.BackColor = System.Drawing.SystemColors.Control
-        Me.TextBox4.Font = New System.Drawing.Font("Arial Unicode MS", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.TextBox4.Location = New System.Drawing.Point(120, 237)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(121, 29)
-        Me.TextBox4.TabIndex = 10
-        '
-        'Label7
-        '
-        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.Label7.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
-        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(13, 186)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(87, 22)
-        Me.Label7.TabIndex = 8
-        Me.Label7.Text = "Formato :"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Button1
         '
@@ -331,29 +68,105 @@ Partial Class AsignacionKPIs
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Arial Unicode MS", 9.5!)
         Me.Button1.ForeColor = System.Drawing.Color.Silver
-        Me.Button1.Location = New System.Drawing.Point(531, 503)
+        Me.Button1.Location = New System.Drawing.Point(728, 304)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(81, 26)
+        Me.Button1.Size = New System.Drawing.Size(95, 31)
         Me.Button1.TabIndex = 16
-        Me.Button1.Text = "Registrar"
+        Me.Button1.Text = "Asignar>>"
         Me.Button1.UseVisualStyleBackColor = False
-        '
-        'ComboBox2
-        '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(120, 185)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 26)
-        Me.ComboBox2.TabIndex = 21
         '
         'DataGridView1
         '
+        Me.DataGridView1.AllowUserToAddRows = False
+        Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(706, 66)
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.nombre})
+        Me.DataGridView1.Location = New System.Drawing.Point(36, 193)
         Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(290, 372)
         Me.DataGridView1.TabIndex = 17
+        '
+        'nombre
+        '
+        Me.nombre.HeaderText = "Nombre"
+        Me.nombre.Name = "nombre"
+        Me.nombre.ReadOnly = True
+        '
+        'DataGridView2
+        '
+        Me.DataGridView2.AllowUserToAddRows = False
+        Me.DataGridView2.AllowUserToDeleteRows = False
+        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.descripcion})
+        Me.DataGridView2.Location = New System.Drawing.Point(408, 193)
+        Me.DataGridView2.Name = "DataGridView2"
+        Me.DataGridView2.ReadOnly = True
+        Me.DataGridView2.RowTemplate.Height = 24
+        Me.DataGridView2.Size = New System.Drawing.Size(290, 372)
+        Me.DataGridView2.TabIndex = 22
+        '
+        'descripcion
+        '
+        Me.descripcion.HeaderText = "Descripción"
+        Me.descripcion.Name = "descripcion"
+        Me.descripcion.ReadOnly = True
+        '
+        'DataGridView3
+        '
+        Me.DataGridView3.AllowUserToAddRows = False
+        Me.DataGridView3.AllowUserToDeleteRows = False
+        Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.descripcionAsignados})
+        Me.DataGridView3.Location = New System.Drawing.Point(850, 193)
+        Me.DataGridView3.Name = "DataGridView3"
+        Me.DataGridView3.ReadOnly = True
+        Me.DataGridView3.RowTemplate.Height = 24
+        Me.DataGridView3.Size = New System.Drawing.Size(290, 372)
+        Me.DataGridView3.TabIndex = 22
+        '
+        'descripcionAsignados
+        '
+        Me.descripcionAsignados.HeaderText = "Descripción"
+        Me.descripcionAsignados.Name = "descripcionAsignados"
+        Me.descripcionAsignados.ReadOnly = True
+        '
+        'Label2
+        '
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(408, 139)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(290, 34)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Indicadores KPI"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label3
+        '
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(36, 139)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(290, 34)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "Roles"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Label6
+        '
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.Label6.Location = New System.Drawing.Point(850, 139)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(290, 34)
+        Me.Label6.TabIndex = 1
+        Me.Label6.Text = "Indicadores asignados"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'AsignacionKPIs
         '
@@ -361,61 +174,38 @@ Partial Class AsignacionKPIs
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1162, 633)
-        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.DataGridView3)
+        Me.Controls.Add(Me.DataGridView2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.MenuStrip1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "AsignacionKPIs"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Principal"
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents OperacionesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ImportarProspectosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ConfiguraciónToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ReportesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SeguridadToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CrearXxxToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SalvarToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EventosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EntidadesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents KPIToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents UsuariosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents RolesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PermisosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AccionesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents VentasToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents IngresosPorUsuarioToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents VentasToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents IndicadoresKPIToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents FuentesDeProspectosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Label7 As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents DataGridView2 As System.Windows.Forms.DataGridView
+    Friend WithEvents DataGridView3 As System.Windows.Forms.DataGridView
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents nombre As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents descripcion As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents descripcionAsignados As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class
