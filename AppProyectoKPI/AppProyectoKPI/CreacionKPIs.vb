@@ -57,4 +57,16 @@
         Return resul
     End Function
 
+    Private Sub txtValor_TextChanged(sender As Object, e As EventArgs) Handles txtValor.TextChanged
+        Try
+            Convert.ToInt32(txtValor.Text)
+        Catch ex As Exception
+            txtValor.Text = ""
+        End Try
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        txtFormula.Text += "hola nicole"
+        DataGridView1.Rows.Add(New Object() {"hola"})
+    End Sub
 End Class

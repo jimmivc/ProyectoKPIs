@@ -62,6 +62,7 @@ Partial Class CreacionKPIs
         Me.txtFormula = New System.Windows.Forms.TextBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.txtValor = New System.Windows.Forms.TextBox()
+        Me.nombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -349,6 +350,7 @@ Partial Class CreacionKPIs
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.nombre})
         Me.DataGridView1.Location = New System.Drawing.Point(745, 98)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 24
@@ -472,6 +474,12 @@ Partial Class CreacionKPIs
         Me.txtValor.Size = New System.Drawing.Size(93, 29)
         Me.txtValor.TabIndex = 22
         '
+        'nombre
+        '
+        Me.nombre.HeaderText = "Nombre"
+        Me.nombre.Name = "nombre"
+        Me.nombre.ReadOnly = True
+        '
         'CreacionKPIs
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
@@ -551,4 +559,5 @@ Partial Class CreacionKPIs
     Friend WithEvents txtFormula As System.Windows.Forms.TextBox
     Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
     Friend WithEvents txtValor As System.Windows.Forms.TextBox
+    Friend WithEvents nombre As System.Windows.Forms.DataGridViewTextBoxColumn
 End Class

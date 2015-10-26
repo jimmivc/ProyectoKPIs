@@ -13,4 +13,6 @@ C:\Users\Jimmi\Documents\GitHub\ProyectoKPI\AppProyectoKPI\AppProyectoKPI\bin\De
 C:\Users\Jimmi\Documents\GitHub\ProyectoKPI\AppProyectoKPI\AppProyectoKPI\bin\Debug\PrimerControlWindows.pdb
 C:\Users\Jimmi\Documents\GitHub\ProyectoKPI\AppProyectoKPI\AppProyectoKPI\bin\Debug\PracticaExamen.dll
 C:\Users\Jimmi\Documents\GitHub\ProyectoKPI\AppProyectoKPI\AppProyectoKPI\bin\Debug\PracticaExamen.pdb
+C:\Users\Jimmi\Documents\GitHub\ProyectoKPI\AppProyectoKPI\AppProyectoKPI\obj\Debug\AppProyectoKPI.ResumenKPIs.resources
+C:\Users\Jimmi\Documents\GitHub\ProyectoKPI\AppProyectoKPI\AppProyectoKPI\obj\Debug\AppProyectoKPI.AsignacionKPIs.resources
 C:\Users\Jimmi\Documents\GitHub\ProyectoKPI\AppProyectoKPI\AppProyectoKPI\obj\Debug\AppProyectoKPI.vbprojResolveAssemblyReference.cache
